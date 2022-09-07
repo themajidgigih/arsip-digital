@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 30, 2022 at 06:08 AM
+-- Generation Time: Sep 08, 2022 at 01:21 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -47,7 +47,7 @@ CREATE TABLE `tbl_arsip` (
 
 INSERT INTO `tbl_arsip` (`id_arsip`, `id_kategori`, `no_arsip`, `nama_arsip`, `deskripsi`, `tgl_upload`, `tgl_update`, `file_arsip`, `ukuran_file`, `id_dep`, `id_user`) VALUES
 (1, 5, '20211031-001', 'Surat Tugas SIRCLE 2019/2020', 'Surat Tugas Organisasi Internal Kampus', '2021-10-31', '2021-11-01', '1635756574_312f381249fddf954549.pdf', 436910, 1, 1),
-(8, 14, '22070631-X3iZ', 'Sertifikat TOEFL Majid Gigih Setiawan', 'Sertifikat TOEFL                                                ', '2022-07-06', '2022-08-08', '1657104709_921a658c22c258443a4a.pdf', 231518, 1, 1);
+(8, 14, '22070631-X3iZ', 'Sertifikat TOEFL Majid Gigih Setiawan', 'Sertifikat TOEFL                                                                        ', '2022-07-06', '2022-09-07', '1657104709_921a658c22c258443a4a.pdf', 231518, 6, 9);
 
 -- --------------------------------------------------------
 
@@ -116,10 +116,9 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id_user`, `nama_user`, `email`, `password`, `level`, `foto`, `id_dep`) VALUES
-(1, 'Majid Gigih Setiawan', 'themajidgigihsetiawan@gmail.com', '12345', 1, '1.png', 1),
-(3, 'Naila Meilina Putri', 'naila@gmail.com', 'naila123', 2, '1635697673_e01d7fdbac74691541e5.png', 6),
-(5, 'Yusuf Awaludin', 'iosef@protonmail.com', 'iosef123', 3, '1656906524_025b89a6d64f6722013d.png', 2),
-(7, 'qwerty', 'qwerty@gmail.com', 'qwerty', 2, '1660516832_b8f6bdb3a3b66fe0f745.png', 7);
+(3, 'Admin', 'admin@gmail.com', 'Admin123', 2, '1662545855_b18ae791585bfd39bcfe.png', 1),
+(5, 'Staf', 'staf@gmail.com', 'Staf123', 3, '1662545899_536b21835ce78da37a20.png', 2),
+(9, 'SuperAdmin', 'superadmin@gmail.com', 'SuperAdmin123', 1, '1662015947_8caa1a38508260b74f45.png', 6);
 
 --
 -- Indexes for dumped tables
@@ -157,7 +156,7 @@ ALTER TABLE `tbl_user`
 -- AUTO_INCREMENT for table `tbl_arsip`
 --
 ALTER TABLE `tbl_arsip`
-  MODIFY `id_arsip` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id_arsip` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `tbl_dep`
@@ -175,7 +174,7 @@ ALTER TABLE `tbl_kategori`
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
