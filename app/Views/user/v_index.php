@@ -68,7 +68,12 @@
                     <td>
                       <a href="<?= base_url('user/lihat/'.$value['id_user']) ?>" class="btn btn-sm btn-info" title="Lihat"><i class="fa fa-folder-open"></i></a>
                       <a href="<?= base_url('user/edit/'.$value['id_user']) ?>" class="btn btn-sm btn-success" title="Edit"><i class="fa fa-edit"></i></a>
-                      <button class="btn btn-sm btn-danger" data-toggle="modal" data-target="#delete<?= $value['id_user']; ?>" title="Hapus"><i class="fa fa-trash"></i></button>
+                      <?php if ($value['level']==1) { ?>
+                        <!-- jika tampil data user SuperAdmin maka tombol hapus tidak muncul -->
+                      <?php } else { ?>
+                        <!-- jika tampil data user Admin/Staf maka tombol hapus muncul -->
+                        <button class="btn btn-sm btn-danger" data-toggle="modal" data-target="#delete<?= $value['id_user']; ?>" title="Hapus"><i class="fa fa-trash"></i></button>
+                      <?php } ?>
                     </td>
                   </tr>
               <?php } ?>

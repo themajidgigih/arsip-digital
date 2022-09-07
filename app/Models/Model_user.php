@@ -11,7 +11,7 @@ class Model_user extends Model
         return $this->db->table('tbl_user')
         ->join('tbl_dep', 'tbl_dep.id_dep = tbl_user.id_dep', 'left')
         //->orderBy('id_user','DESC')
-        ->orderBy('nama_user')
+        ->orderBy('level')
         ->get()
         ->getResultArray();
     }
