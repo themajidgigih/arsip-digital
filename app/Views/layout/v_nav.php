@@ -3,7 +3,9 @@
 
 <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="<?= base_url() ?>/template/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    <img class="animation__shake" src="<?= base_url() ?>/template/dist/img/logo-bms.png" alt="Logo Banyumas" height="100" width="100">
+    <h3><b>Arsip</b>Digital</h3>
+    <h5>Kelurahan Bantarsoka</h5>
   </div>
 
   <!-- Navbar -->
@@ -52,7 +54,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="<?= base_url('home') ?>" class="brand-link">
-      <img src="<?= base_url() ?>/template/dist/img/AdminLTELogo.png" alt="Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="<?= base_url() ?>/template/dist/img/logo-bms.png" alt="Logo" class="brand-image img-circle" style="opacity: 1">
       <span class="brand-text"><b>Arsip</b>Digital</span>
     </a>
 

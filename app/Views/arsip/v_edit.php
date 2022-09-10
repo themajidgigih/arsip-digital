@@ -71,7 +71,6 @@
                         </div>
                         <label class="text-danger">*File harus berformat .pdf</label>
                     </div>
-                    </div>
 
                     <div class="form-group">
                         <button type="submit" class="btn btn-primary pull-right">Simpan</button>
