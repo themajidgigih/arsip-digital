@@ -30,7 +30,7 @@
                     </a>
                     <div id="collapseTwo" class="collapse" data-parent="#accordion">
                         <div class="card-body">
-                            <b>Admin</b> memiliki 3 menu pada <b>Arsip</b>Digital. Menu yang dapat diakses <b>Admin</b> antara lain:
+                            <b>Admin</b> memiliki akses 3 menu pada <b>Arsip</b>Digital. Menu yang dapat diakses <b>Admin</b> antara lain:
                             </br>1. Menu Arsip (Tambah, Ubah, Hapus, Lihat dan Unduh)
                             </br>2. Menu Kategori (Tambah, Ubah, Hapus dan Lihat)
                             </br>3. Menu Departemen (Tambah, Ubah, Hapus dan Lihat)
@@ -47,7 +47,7 @@
                     </a>
                     <div id="collapseThree" class="collapse" data-parent="#accordion">
                         <div class="card-body">
-                            <b>Staf</b> memiliki 3 menu pada <b>Arsip</b>Digital. Menu yang dapat diakses <b>Staf</b> antara lain:
+                            <b>Staf</b> memiliki akses 3 menu pada <b>Arsip</b>Digital. Menu yang dapat diakses <b>Staf</b> antara lain:
                             </br>1. Menu Arsip (Lihat dan Unduh)
                             </br>2. Menu Kategori (Lihat)
                             </br>3. Menu Departemen (Lihat)
